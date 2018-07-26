@@ -1,0 +1,70 @@
+.big-head-sec {
+	background: url('../img/bg-blue-triangle.jpg') no-repeat center top;
+}
+
+.big-head {}
+
+.big-head__info {
+	color: #fff;
+}
+
+.big-head__descr {
+	padding-bottom: $pad-l;
+	span {
+		font-size: 18px;
+		font-family: $font-head;
+		text-transform: uppercase;
+	}
+	h1 {
+		padding-bottom: $pad-xs;
+	}
+	p {
+		font-size: 16px;
+		line-height: (26/16);
+	}
+}
+
+.big-head__price {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding-bottom: $pad-s;
+	font-family: $font-head;
+}
+
+.big-head__price-title {
+	width: 100%;
+	font-size: 24px;
+}
+
+.big-head__price-old {
+	position: relative;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 5px;
+	padding-right: 3px;
+	font-size: 30px;
+	white-space: nowrap;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 18px;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background: #fff;
+	}
+}
+
+.big-head__price-new {
+	font-size: 48px;
+	line-height: 1.2;
+	color: $red;
+	white-space: nowrap;
+}
+
+.big-head__btns {}
+
+.big-head__btn-play {}
+
+.big-head__img {}

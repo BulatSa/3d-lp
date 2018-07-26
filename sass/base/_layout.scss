@@ -1,0 +1,45 @@
+.s-def{
+	padding: 40px 0;
+	@include res(xxl){
+		padding: 30px 0;
+	}
+	@include res(s){
+		padding: 20px 0;
+	}
+}
+
+.s-def-top{
+	padding-top: 40px;
+	@include res(xxl){
+		padding-top: 30px;
+	}
+	@include res(s){
+		padding-top: 20px;
+	}
+}
+
+.s-def-bottom{
+	padding-bottom: 40px;
+	@include res(xxl){
+		padding-bottom: 30px;
+	}
+	@include res(s){
+		padding-bottom: 20px;
+	}
+}
+
+.border-block{
+	border-radius: 15px;
+	border: 1px solid $gray-border;
+	padding: $pad-m;
+	@include res(l){
+		padding: $pad-s;
+	}
+	@include res(s){
+		padding: $pad-s $pad-xs;
+	}
+}
+
+.gray-bg {
+	background: $gray-bg;
+}

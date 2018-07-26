@@ -1,0 +1,13 @@
+.s-about{
+	@extend %sec-paddings;
+
+	&__title{
+		margin-bottom: 25px;
+	}
+
+	.slider{
+		@include res(s){
+			margin-top: 40px;
+		}
+	}
+}

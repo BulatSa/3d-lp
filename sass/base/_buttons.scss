@@ -1,0 +1,173 @@
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 10px 22px;
+	font-size: 16px;
+	font-family: $font-head;
+	font-weight: bold;
+	line-height: 1.3;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	user-select: none;
+	background: $gray-bg;
+	color: $blue;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	@include res(xs){
+		font-size: 12px;
+		padding: 10px 14px;
+	}
+
+	&:hover,&:focus{
+		color: $blue;
+		outline: none;
+		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
+		background: darken($gray-bg,5%);
+	}
+
+	&:active{
+		color: $blue;
+		background: darken($gray-bg,10%);
+		box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.5);
+	}
+
+	i{
+		&.i-down{
+			display: inline-block;
+			position: relative;
+			margin-left: $pad-xxs;
+			top: -0.1em;
+			font-size: 8px;
+			transform-origin: 50% 45%;
+			transition: transform 0.3s ease;
+		}
+	}
+
+	&.active{
+		i.i-down{
+			transform: rotate(-180deg);
+		}
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+.btn--red {
+	background: $red;
+	color: #FFF;
+
+	&:hover,&:focus{
+		color: #FFF;
+		background: darken($red,10%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
+
+	&:active{
+		color: #FFF;
+		background: darken($red,15%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
+}
+
+.btn--blue{
+	background: $blue;
+	color: #FFF;
+
+	&:hover,&:focus{
+		color: #FFF;
+		background: darken($blue,10%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
+
+	&:active{
+		color: #FFF;
+		background: darken($blue,15%);
+		box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.6);
+	}
+}
+
+.btn--white{
+	background: #fff;
+	color: #000;
+}
+
+.btn--small{
+	font-family: $font;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 8px 18px;
+}
+
+.btn--small-white{
+	background: #FFF;
+	font-family: $font;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 8px 18px;
+}
+
+.btn--round{
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	@include res(xs){
+		width: 35px;
+		height: 35px;
+	}
+
+	i{
+		display: block;
+	}
+
+	i.i-compare{
+		font-size: 21px;
+	}
+
+	&.del_from_compare{
+		background: $green;
+		color: #FFF;
+	}
+}
+
+
+.btn.loading{
+	overflow: hidden;
+	color: transparent;
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		background: #FFF;
+		width: 20px;
+		height: 20px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		transform: translate3d(0,0,0);
+		animation: loadingbtn 0.5s infinite ease alternate;
+		opacity: 0;
+		border-radius: 10px;
+	}
+}
+
+@keyframes loadingbtn {
+	from{
+		transform: translate3d(-20px,0,0);
+		opacity: 1;
+	}
+	to{
+		transform: translate3d(20px,0,0) scale3d(0.5,0.5,0.5);
+		opacity: 1;
+	}
+}

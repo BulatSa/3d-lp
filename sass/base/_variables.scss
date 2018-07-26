@@ -1,0 +1,33 @@
+$breakpoints: (
+	'xxl': (max-width: 1670px),
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+	'xxs': (max-width: 375px),
+);
+
+$font: Verdana, 'Verdana', Arial, sans-serif;
+$font-head: 'Exo', Arial, sans-serif;
+$font-icons: 'icomoon' !important;
+
+$container_width: 1220px;
+
+$gutter: 14px;
+
+$red: #f81242;
+$green: #00c453;
+$blue: #2f7bff;
+$gray-bg: #f0f0f7;
+$gray-border: #ebebeb;
+$gray-text: #b4b4b4;
+$orange: #f95a0e;
+
+$pad-xxl: 100px;
+$pad-xl: 70px;
+$pad-l: 50px;
+$pad-m: 30px;
+$pad-s: 20px;
+$pad-xs: 15px;
+$pad-xxs: 10px;

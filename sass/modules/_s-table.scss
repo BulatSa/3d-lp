@@ -1,0 +1,79 @@
+.s-table{
+	@extend %sec-paddings;
+	background: #171821;
+	color: #FFF;
+
+	&__title{
+		margin-bottom: 25px;
+	}
+}
+
+.tech-table{
+	line-height: 1.2;
+
+	&__more{
+		text-align: center;
+		padding-top: 30px;
+		@include res(s){
+			padding-top: 20px;
+		}
+
+		a{
+			color: $blue;
+			transition: all 0.3s ease;
+			white-space: nowrap;
+
+			i{
+				display: inline-block;
+				font-size: 8px;
+				margin-left: 5px;
+			}
+			
+			&:hover{
+				color: #FFF;
+			}
+		}
+	}
+}
+
+.tech-table--hide{
+	display: none;
+	i{
+		transform: rotate(180deg);
+		position: relative;
+		top: -0.2em;
+	}
+}
+
+.tech-row{
+	border-top: 1px solid #5f6489;
+	padding: 12px 10px;
+	@include res(s){
+		padding: 8px 10px;
+	}
+
+	&:first-child{
+		border-top: none;
+	}
+	
+	&__key{
+		display: inline-block;
+		vertical-align: top;
+		color: #5f6489;
+		width: 290px;
+		@include res(s){
+			display: block;
+			width: 100%;
+			margin-bottom: 4px;
+		}
+	}
+
+	&__value{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	&--hidden{
+		display: none;
+	}
+}

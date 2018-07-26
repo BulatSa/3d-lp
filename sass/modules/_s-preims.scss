@@ -1,0 +1,63 @@
+.s-preims{
+   background: #171821;
+   color: #FFF;
+
+   &__title{
+      margin-bottom: 40px;
+   }
+}
+
+.preims{
+   display: flex;
+   align-items: stretch;
+   @include res(m){
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+}
+
+.preim{
+   background: #FFF;
+   border-radius: 20px;
+   color: #000;
+   overflow: hidden;
+   flex: 1;
+   margin: 0 10px;
+   max-width: 275px;
+   @include res(l){
+      margin: 0 5px;
+   }
+   @include res(m){
+      margin-bottom: 10px;
+      width: 215px;
+      min-width: 215px;
+    }
+
+   header{
+      img{
+         width: 100%;
+         height: auto;
+      }
+   }
+
+   &__title{
+      font-family: $font-head;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      padding: 15px 20px 5px 20px;
+      @include res(l){
+         padding: 10px 15px 5px 15px;
+         font-size: 14px;
+      }
+   }
+
+   &__descr{
+      font-size: 12px;
+      padding: 0 20px 20px 20px;
+      @include res(l){
+         padding: 0 15px 15px 15px;
+      }
+   }
+}
