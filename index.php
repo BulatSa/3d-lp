@@ -33,8 +33,8 @@
 
 <section class="big-head-sec s-def">
 	<div class="big-head container">
-		<div class="row">
-			<div class="grid-6">
+		<div class="row s-def">
+			<div class="grid-6 grid-12_m">
 				<div class="big-head__info">
 					<div class="big-head__descr">
 						<span>3D принтер</span>
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-6">
+			<div class="grid-6 grid-12_m">
 				<div class="big-head__img">
 					<img src="" alt="">
 				</div>
@@ -243,6 +243,36 @@
 			<a href="#" rel="nofollow" class="tech-table--hide">Свернуть <i class="i-down"></i></a>
 		</div>
 
+	</div>
+</section>
+
+
+<section class="benefits-sec">
+	<div class="benefits container">
+		<div class="benefits__info">
+			<p class="benefits__title h2">Сервис на первом месте</p>
+			<div class="benefits__item">
+				<div class="benefits__item-img"></div>
+				<div class="benefits__item-text">
+					<p>Подменная машина</p>
+					<span>На время ремонта вам предоставляется подменный принтер**</span>
+				</div>
+			</div>
+			<div class="benefits__item">
+				<div class="benefits__item-img"></div>
+				<div class="benefits__item-text">
+					<p>Гарантия 2 года</p>
+					<span>Мы даем полную гарантию на продукцию.</span>
+				</div>
+			</div>
+			<div class="benefits__item">
+				<div class="benefits__item-img"></div>
+				<div class="benefits__item-text">
+					<p>гарантийный сервис</p>
+					<span>Мы являемся официальным дистрибьютором и предоставляем гарантийный сервис нашим клиентам.</span>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 

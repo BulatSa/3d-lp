@@ -2,7 +2,13 @@
 	background: url('../img/bg-blue-triangle.jpg') no-repeat center top;
 }
 
-.big-head {}
+.big-head {
+	.row {
+		@include res(m) {
+			flex-direction: row-reverse;
+		}
+	}
+}
 
 .big-head__info {
 	color: #fff;
@@ -10,10 +16,16 @@
 
 .big-head__descr {
 	padding-bottom: $pad-l;
+	@include res(s) {
+		padding-bottom: $pad-s;
+	}
 	span {
 		font-size: 18px;
 		font-family: $font-head;
 		text-transform: uppercase;
+		@include res(l) {
+			font-size: 16px;
+		}
 	}
 	h1 {
 		padding-bottom: $pad-xs;
@@ -21,6 +33,9 @@
 	p {
 		font-size: 16px;
 		line-height: (26/16);
+		@include res(s) {
+			font-size: 14px;
+		}
 	}
 }
 
@@ -35,6 +50,12 @@
 .big-head__price-title {
 	width: 100%;
 	font-size: 24px;
+	@include res(l) {
+		font-size: 22px;
+	}
+	@include res(s) {
+		font-size: 20px;
+	}
 }
 
 .big-head__price-old {
@@ -45,6 +66,9 @@
 	padding-right: 3px;
 	font-size: 30px;
 	white-space: nowrap;
+	@include res(s) {
+		font-size: 26px;
+	}
 	&:after {
 		content: '';
 		position: absolute;
@@ -61,10 +85,37 @@
 	line-height: 1.2;
 	color: $red;
 	white-space: nowrap;
+	@include res(s) {
+		font-size: 38px;
+	}
 }
 
-.big-head__btns {}
+.big-head__btns {
+	display: flex;
+	align-items: center;
+}
 
-.big-head__btn-play {}
+.big-head__btn-play {
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+	&:hover {
+		p {
+			color: #ffffff;
+		}
+	}
+	p {
+		margin-left: 10px;
+		color: $blue;
+		font-size: 14px;
+		transition: all 0.3s ease;
+		@include res(s) {
+			font-size: 12px;
+		}
+	}
+	.play-icon {
+		flex-shrink: 0;
+	}
+}
 
 .big-head__img {}
