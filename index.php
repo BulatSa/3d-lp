@@ -24,7 +24,7 @@
 			<img src="img/header/icon-2.png" alt="">
 			<div class="header__contact-info">
 				<a href="tel:8 800 600-17-10">8 800 600-17-10</a>
-				<a href="#" class="fancy">Обратный звонок</a>
+				<a href="#" class="fancy-modal" data-src="#modal-call" rel="nofollow">Обратный звонок</a>
 			</div>
 		</div>
 	</div>

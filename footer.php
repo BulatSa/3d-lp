@@ -1,19 +1,19 @@
 <!-- Модальные окна -->
 <div class="modals-sec">
 
-	<div id="modal-order" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-			<label class="style-checkbox">
+	<div id="modal-call" class="modal">
+		<div class="modal__icon">
+			<img src="/img/modal-order.svg" alt="icon">
+		</div>
+		<p class="h3 modal__title">Заказать обратный звонок</p>
+		<form class="ajax-form vertical-form" autocomplete="off">
+			<input type="hidden" value="Заказ обратного звонка" name="form_subject">
+			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text">
+			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+			<button type="submit" class="btn btn--blue">Отправить</button>
+			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
+				<span>Даю свое согласие на&nbsp;обработку моих персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="/privacy/" target="_blank">политикой конфиденциальности</a></span>
 			</label>
 		</form>
 	</div>
