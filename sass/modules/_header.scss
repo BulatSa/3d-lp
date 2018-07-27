@@ -74,11 +74,17 @@
 		font-size: 16px;
 		font-weight: bold;
 		line-height: 1.2;
-		&.fancy {
+		&.fancy-modal {
 			color: $blue;
 			font-family: $font;
 			font-weight: normal;
 			font-size: 12px;
+			line-height: 1.7;
+			transition: color 0.3s ease;
+
+			&:hover{
+				color: $red;
+			}
 		}
 	}
 }

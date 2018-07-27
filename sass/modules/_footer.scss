@@ -1,0 +1,82 @@
+.s-footer{
+	@extend %sec-paddings;
+	background: #171821;
+	color: #FFF;
+}
+
+.footer-contact{
+	margin-bottom: 20px;
+	@include res(xs){
+		text-align: center;
+	}
+
+	small{
+		display: block;
+		font-size: 13px;
+	}
+
+	strong{
+		font-family: $font-head;
+		font-size: 24px;
+		white-space: nowrap;
+		@include res(xl){
+			font-size: 20px;
+		}
+		@include res(l){
+			font-size: 18px;
+		}
+
+		a[href^=tel]{
+			cursor: default;
+		}
+	}
+}
+
+.footer-text{
+	padding: 20px 0;
+	color: #5f6489;
+	font-size: 11px;
+	line-height: 1.6;
+}
+
+
+.footer-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	@extend .small-text;
+	margin-top: 50px;
+	@include res(s){
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	&__center{
+		@include res(s){
+			margin: 20px 0;
+		}
+		a{
+			color: $blue;
+			transition: color 0.3s ease;
+
+			&:hover,&:focus{
+				outline: none;
+				color: lighten($blue,10%);
+			}
+		}
+	}
+
+	&__right{
+		img{
+			width: 154px;
+			height: auto;
+			opacity: 1;
+			transition: all 0.3s ease;
+
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+
+	}
+}
