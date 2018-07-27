@@ -1,5 +1,6 @@
 .benefits-sec {
 	background: #171821;
+	@extend %sec-paddings-bottom;
 }
 
 .benefits {

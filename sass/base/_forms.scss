@@ -227,7 +227,7 @@ textarea.input-text {
 			border-radius: 21px;
 			position: absolute;
 			left: 0;
-			top: 0;
+			top: 3px;
 			transition: all 0.3s ease;
 			background: $gray-text;
 		}
@@ -240,7 +240,7 @@ textarea.input-text {
 			border-radius: 50%;
 			background: #FFF;
 			left: 2px;
-			top: 2px;
+			top: 5px;
 			z-index: 2;
 			transition: transform 0.3s ease;
 		}

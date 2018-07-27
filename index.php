@@ -3,16 +3,14 @@
 <section class="header-sec">
 	<div class="header container">
 		<div class="header__logo">
-			<a href="#">
-				<img src="img/logo-top.svg" alt="">
-			</a>
+			<img src="img/logo-top.svg" alt="">
 		</div>
-		<div class="header__about">
+		<a href="img/header/logo-about.png" class="header__about fancy" rel="nofollow">
 			<div class="header__about-img">
 				<img src="img/header/logo-about.png" alt="">
 			</div>
 			<span>Официальный дистрибьютор</span>
-		</div>
+		</a>
 		<div class="header__garant">
 			<img src="img/header/icon-1.png" alt="">
 			<div class="header__garant-info">
@@ -43,8 +41,42 @@
 					</div>
 					<div class="big-head__price">
 						<p class="big-head__price-title">Закажите со скидкой 20%</p>
-						<p class="big-head__price-old">370 000 <span class="rub">₽</span></p>
-						<p class="big-head__price-new">270 000 <span class="rub">₽</span></p>
+						<p class="big-head__price-old">370 000 <span class="rub">c</span></p>
+						<p class="big-head__price-new">270 000 <span class="rub">c</span></p>
+					</div>
+					<div class="big-head__btns">
+						<a href="#" class="btn btn--red ripple-cont">Купить в 1 клик</a>
+						<a href="#" class="big-head__btn-play">
+							<span class="play-icon"></span>
+							<p>Посмотрите видео</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-6 grid-12_m">
+				<div class="big-head__img">
+					<img src="img/product.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="big-head-sec big-head-sec--white s-def">
+	<div class="big-head container">
+		<div class="row s-def">
+			<div class="grid-6 grid-12_m big-head__info-wrap">
+				<div class="big-head__info">
+					<div class="big-head__descr">
+						<span>3D принтер</span>
+						<h1>Picaso 3D Designer X Pro</h1>
+						<p>Designer X Pro это 3D принтер для профессионалов, несущий в себе возможность к реализации сложных и подчас невыполнимых задач. Качество печати и скорость выполнения заданий были в приоритете у создателей этого принтера.</p>
+					</div>
+					<div class="big-head__price">
+						<p class="big-head__price-title">Закажите со скидкой 20%</p>
+						<p class="big-head__price-old">370 000 <span class="rub">c</span></p>
+						<p class="big-head__price-new">270 000 <span class="rub">c</span></p>
 					</div>
 					<div class="big-head__btns">
 						<a href="#" class="btn btn--red ripple-cont">Купить в 1 клик</a>
@@ -247,7 +279,7 @@
 </section>
 
 
-<section class="benefits-sec s-def">
+<section class="benefits-sec">
 	<div class="container">
 		<div class="benefits">
 			<div class="row">
@@ -289,6 +321,50 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-order s-def">
+	<div class="container">
+		<div class="row s-def">
+
+			<div class="grid-6 grid-12_m">
+				<div class="order-block">
+					<div class="h2">Закажите сейчас со&nbsp;скидкой 20%</div>
+					<div class="order-prices">
+						<div class="order-price">
+							<small>Цена без скидки</small>
+							<div class="order-price-old">324 000 <span class="rub">c</span></div>
+						</div>
+						<div class="order-price">
+							<small>Цена со скидкой</small>
+							<div class="order-price-new">270 000 <span class="rub">c</span></div>
+						</div>
+					</div>
+					<form class="ajax-form vertical-form" autocomplete="off">
+						<input type="hidden" value="Новый заказ. LP:Picaso 3D Designer X Pro" name="form_subject">
+						<input type="text" name="user_name" placeholder="Введите имя*" data-label="Имя пользователя" class="input-text" data-req="true">
+						<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="E-mail"  class="input-text" data-req="true">
+						<input type="text" name="user_company" placeholder="Название компании" data-label="Название компании" class="input-text">
+						<label class="style-check-ios">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку «Отправить заявку», я соглашаюсь с&nbsp;<a href="/privacy/" target="_blank">политикой конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn btn--red">Отправить</button>
+
+					</form>
+				</div>
+			</div>
+
+			<div class="grid-6 grid-12_m">
+				<div class="big-head__img">
+					<img src="img/product.png" alt="">
+				</div>
+			</div>
+
 		</div>
 	</div>
 </section>
