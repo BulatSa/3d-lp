@@ -6,6 +6,9 @@
 
 .footer-contact{
 	margin-bottom: 20px;
+	@include res(xs){
+		text-align: center;
+	}
 
 	small{
 		display: block;
