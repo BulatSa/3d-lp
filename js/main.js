@@ -199,3 +199,51 @@ $(function($){
 /***********************
 tech-table END
 ***********************/
+
+
+/***********************
+ Lazy BEGIN
+ ***********************/
+function lazyLoad(){
+	var $images = $('.lazy_load');
+
+	$images.each(function(){
+		var $img = $(this);
+		var src = $img.attr('data-img');
+		if ($img.data('mobile-only') === true) {
+			if (!device.desktop()) {
+				$img.attr('src', src);
+			}
+		} else {
+			$img.attr('src', src);
+		}
+	});
+}
+
+function lazyLoadBg(){
+	var $images = $('.lazy_loadbg');
+
+	$images.each(function(){
+		var $img = $(this);
+		var src = $img.attr('data-img');
+		if ($img.data('mobile-only') === true){
+			if (!device.desktop()) {
+				$img.css('background-image', 'url(' + src + ')');
+			}
+		} else {
+			$img.css('background-image', 'url(' + src + ')');
+		}
+	});
+}
+
+$(function(){
+	lazyLoad();
+	lazyLoadBg();
+});
+
+$(window).on('load',function () {
+	Waypoint.refreshAll();
+});
+/***********************
+ Lazy END
+ ***********************/

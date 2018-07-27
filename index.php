@@ -175,35 +175,35 @@
 		<div class="preims">
 			<div class="preim">
 				<header>
-					<img src="/img/preims/1.jpg" alt="1">
+					<img src="" data-img="/img/preims/1.jpg" alt="1" class="lazy_load">
 				</header>
 				<div class="preim__title">Бесплатная доставка</div>
 				<div class="preim__descr">осуществляется по&nbsp;РФ до&nbsp;ближайшего к&nbsp;покупателю пункту выдачи транспортной компании.</div>
 			</div>
 			<div class="preim">
 				<header>
-					<img src="/img/preims/2.jpg" alt="1">
+					<img src="" data-img="/img/preims/2.jpg" alt="1" class="lazy_load">
 				</header>
 				<div class="preim__title">Специальные условия</div>
 				<div class="preim__descr">На поставки для&nbsp;образовательных организаций.</div>
 			</div>
 			<div class="preim">
 				<header>
-					<img src="/img/preims/3.jpg" alt="1">
+					<img src="" data-img="/img/preims/3.jpg" alt="1" class="lazy_load">
 				</header>
 				<div class="preim__title">Обучение в&nbsp;подарок</div>
 				<div class="preim__descr">Обучаем вашего специалиста в&nbsp;офисах компании (Казань и&nbsp;Санкт-Петербург) при&nbsp;покупке оборудования.</div>
 			</div>
 			<div class="preim">
 				<header>
-					<img src="/img/preims/4.jpg" alt="1">
+					<img src="" data-img="/img/preims/4.jpg" alt="1" class="lazy_load">
 				</header>
 				<div class="preim__title">Пусконаладка в&nbsp;подарок</div>
 				<div class="preim__descr">Осуществление бесплатных пусконаладочных работ в&nbsp;городах Казань и&nbsp;Санкт-Петербург.</div>
 			</div>
 			<div class="preim">
 				<header>
-					<img src="/img/preims/5.jpg" alt="1">
+					<img src="" data-img="/img/preims/5.jpg" alt="1" class="lazy_load">
 				</header>
 				<div class="preim__title">Постоянная скидка до&nbsp;20%</div>
 				<div class="preim__descr">Обучаем вашего специалиста в&nbsp;офисах компании (Казань и Санкт-Петербург) при&nbsp;покупке оборудования.</div>
@@ -281,11 +281,11 @@
 
 <section class="benefits-sec">
 	<div class="container">
-		<div class="benefits">
+		<div class="benefits lazy_loadbg" data-img="/img/benefits/bg.jpg">
 			<div class="row">
 				<div class="grid-6 grid-5_l benefits__img-wrap">
 					<div class="benefits__img">
-						<img src="img/benefits/man.png" alt="">
+						<img src="" data-img="img/benefits/man.png" alt="man" class="lazy_load">
 					</div>
 				</div>
 				<div class="grid-6 grid-7_l grid-12_m benefits__info-wrap">
@@ -293,7 +293,7 @@
 						<p class="benefits__title h2">Сервис на первом месте</p>
 						<div class="benefits__item">
 							<div class="benefits__item-img">
-								<img src="img/benefits/icon-1.svg" alt="">
+								<img src="" data-img="img/benefits/icon-1.svg" alt="1" class="lazy_load">
 							</div>
 							<div class="benefits__item-text">
 								<p>Подменная машина</p>
@@ -302,7 +302,7 @@
 						</div>
 						<div class="benefits__item">
 							<div class="benefits__item-img">
-								<img src="img/benefits/icon-2.svg" alt="">
+								<img src="" data-img="img/benefits/icon-2.svg" alt="1" class="lazy_load">
 							</div>
 							<div class="benefits__item-text">
 								<p>Гарантия 2 года</p>
@@ -311,7 +311,7 @@
 						</div>
 						<div class="benefits__item">
 							<div class="benefits__item-img">
-								<img src="img/benefits/icon-3.svg" alt="">
+								<img src="" data-img="img/benefits/icon-3.svg" alt="1" class="lazy_load">
 							</div>
 							<div class="benefits__item-text">
 								<p>гарантийный сервис</p>
@@ -415,7 +415,7 @@
 			</div>
 			<div class="footer-bottom__right">
 				<a href="https://penbrain.ru" target="_blank" title="Сайт разработан в Pen&amp;Brain">
-					<img src="/img/logo-develop.svg" alt="Pen&amp;Brain logotype">
+					<img src="" data-img="/img/logo-develop.svg" alt="Pen&amp;Brain logotype" class="lazy_load">
 				</a>
 			</div>
 		</div>

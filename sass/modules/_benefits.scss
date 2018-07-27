@@ -5,7 +5,9 @@
 
 .benefits {
 	border-radius: 15px;
-	background: url('../img/benefits/bg.jpg') center;
+	background-position: center center;
+	background-size: cover;
+	background-color: #fff;
 }
 
 .benefits__img-wrap {
