@@ -1,10 +1,10 @@
-.s-about, .s-result, .s-table {
+.s-about, .s-result, .s-table, .s-footer {
   padding: 80px 0; }
   @media (max-width: 1400px) {
-    .s-about, .s-result, .s-table {
+    .s-about, .s-result, .s-table, .s-footer {
       padding: 60px 0; } }
   @media (max-width: 680px) {
-    .s-about, .s-result, .s-table {
+    .s-about, .s-result, .s-table, .s-footer {
       padding: 40px 0; } }
 
 body.compensate-for-scrollbar {
@@ -1085,7 +1085,7 @@ h3, .h3 {
   font-size: 16px;
   line-height: 1.2; }
 
-.small-text {
+.small-text, .footer-bottom {
   font-size: 12px; }
 
 .user-content {
@@ -1995,20 +1995,18 @@ button::-moz-focus-inner {
     opacity: 1; } }
 
 .play-icon {
-  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  -webkit-transition: background 0.3s ease;
-  -o-transition: background 0.3s ease;
   transition: background 0.3s ease;
   background: #2f7bff;
   z-index: 3; }
@@ -2023,7 +2021,6 @@ button::-moz-focus-inner {
   font-family: 'icomoon' !important;
   color: #FFF;
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   display: block;
   font-size: 18px;
@@ -2184,8 +2181,7 @@ button::-moz-focus-inner {
 
 @media (max-width: 768px) {
   .big-head .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; } }
 
@@ -2266,18 +2262,18 @@ button::-moz-focus-inner {
       font-size: 38px; } }
 
 .big-head__btns {
-  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
 
 .big-head__btn-play {
-  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin-left: 25px; }
@@ -2287,13 +2283,12 @@ button::-moz-focus-inner {
     margin-left: 10px;
     color: #2f7bff;
     font-size: 14px;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     @media (max-width: 680px) {
       .big-head__btn-play p {
         font-size: 12px; } }
   .big-head__btn-play .play-icon {
+    -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0; }
 
@@ -2483,3 +2478,65 @@ button::-moz-focus-inner {
     vertical-align: top; }
   .tech-row--hidden {
     display: none; }
+
+.s-footer {
+  background: #171821;
+  color: #FFF; }
+
+.footer-contact {
+  margin-bottom: 20px; }
+  .footer-contact small {
+    display: block;
+    font-size: 13px; }
+  .footer-contact strong {
+    font-family: "Exo", Arial, sans-serif;
+    font-size: 24px;
+    white-space: nowrap; }
+    @media (max-width: 1400px) {
+      .footer-contact strong {
+        font-size: 20px; } }
+    @media (max-width: 1024px) {
+      .footer-contact strong {
+        font-size: 18px; } }
+    .footer-contact strong a[href^=tel] {
+      cursor: default; }
+
+.footer-text {
+  padding: 20px 0;
+  color: #5f6489;
+  font-size: 11px;
+  line-height: 1.6; }
+
+.footer-bottom {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px; }
+  @media (max-width: 680px) {
+    .footer-bottom {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 30px; } }
+  @media (max-width: 680px) {
+    .footer-bottom__center {
+      margin: 20px 0; } }
+  .footer-bottom__center a {
+    color: #2f7bff;
+    transition: color 0.3s ease; }
+    .footer-bottom__center a:hover, .footer-bottom__center a:focus {
+      outline: none;
+      color: #629bff; }
+  .footer-bottom__right img {
+    width: 154px;
+    height: auto;
+    opacity: 1;
+    transition: all 0.3s ease; }
+    .footer-bottom__right img:hover {
+      opacity: 0.7; }

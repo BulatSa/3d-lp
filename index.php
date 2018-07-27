@@ -277,4 +277,57 @@
 </section>
 
 
+<footer class="s-footer">
+	<div class="container">
+
+		<div class="row">
+			<div class="grid-3 grid-6_m grid-12_xs">
+				<div class="footer-contact">
+					<small>Бесплатный звонок по РФ</small>
+					<strong><a href="tel:8 800 600-17-70">8 800 600-17-70</a></strong>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xs">
+				<div class="footer-contact">
+					<small>Казань</small>
+					<strong><a href="tel:8 843 260-92-29">8 843 260-92-29</a></strong>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xs">
+				<div class="footer-contact">
+					<small>Санкт-Петербург</small>
+					<strong><a href="tel:8 812 425-35-83">8 812 425-35-83</a></strong>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xs">
+				<div class="footer-contact">
+					<small>E-mail</small>
+					<strong><a href="mailto:info@3dsystem.pro">info@3dsystem.pro</a></strong>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-text">
+			* Правовая информация
+			<br><br>
+			Сведения о продукции PICASO 3D (ООО «ПИКАСО 3Д», ОГРН 1147748027460, АДРЕС: 124498, город Москва, город Зеленоград, проспект Георгиевский, дом 5, телефон:+7 (499) 653 87 91) и условия приобретения продукции, представленные на настоящем сайте, носят исключительно информационный характер относительно товаров и услуг, предоставляемых компанией PICASO 3D, и не являются публичной офертой. Указанные цены являются рекомендованными ценами реализации товаров и услуг компании PICASO 3D для Уполномоченных Дилеров и Дистрибьюторов PICASO 3D и/или Уполномоченных Партнеров PICASO 3D, перечень которых указан на сайте компании. Приобретение любой продукции PICASO 3D осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленная на cайте информация о продукции PICASO 3D не означает, что данная продукция имеется в наличии у Уполномоченных Дилеров и Дистрибьюторов PICASO 3D и/или Уполномоченных Партнеров PICASO 3D для продажи. Для получения информации о наличии продукции PICASO 3D, а также подробных сведений о продукции PICASO 3D, реализуемой в Вашем регионе, Вы можете связаться с Уполномоченными Дилерами и Дистрибьюторами PICASO 3D и/или Уполномоченными Партнерами PICASO 3D в Вашем регионе.
+			<br><br>
+			** При наличии подменного оборудования
+		</div>
+
+		<div class="footer-bottom">
+			<div class="footer-bottom__policy">© 2012-<?= date("Y")?> 3DSYSTEM.PRO</div>
+			<div class="footer-bottom__center">
+				<a href="/privacy/">Политика конфиденциальности</a>
+			</div>
+			<div class="footer-bottom__right">
+				<a href="https://penbrain.ru" target="_blank" title="Сайт разработан в Pen&amp;Brain">
+					<img src="/img/logo-develop.svg" alt="Pen&amp;Brain logotype">
+				</a>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
 <?php include('footer.php'); ?>
