@@ -108,8 +108,8 @@ body.compensate-for-scrollbar {
   user-select: none; }
 
 .fancybox-toolbar {
-  right: 0;
-  top: 0; }
+  right: 5px;
+  top: 5px; }
 
 .fancybox-stage {
   direction: ltr;
@@ -2213,6 +2213,8 @@ button::-moz-focus-inner {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+  .modal--thanks {
+    text-align: center; }
 
 .fancybox-slide--current .modal {
   -webkit-transform: none;

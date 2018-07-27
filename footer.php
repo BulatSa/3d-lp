@@ -18,8 +18,8 @@
 		</form>
 	</div>
 
-	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+	<div id="modal-thanks" class="modal modal--thanks">
+		<p class="h2">Спасибо за&nbsp;заявку!</p>
 	</div>
 
 	<div id="modal-error" class="modal">

@@ -1,3 +1,5 @@
 _design
 .idea
 prepros-6.config
+/orders.csv
+/css/*
