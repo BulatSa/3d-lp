@@ -1,6 +1,7 @@
 .s-preims{
    background: #171821;
    color: #FFF;
+	@extend %sec-paddings-top;
 
    &__title{
       margin-bottom: 40px;
