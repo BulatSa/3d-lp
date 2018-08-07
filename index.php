@@ -131,7 +131,59 @@
 				</div>
 			</div>
 
-		</div>	
+		</div>
+
+		<div class="row about-triggers">
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/1.png" alt="1">
+					</header>
+					<main>Количество печатающих голов</main>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/2.png" alt="1">
+					</header>
+					<main>Возможность печати без компьютера</main>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/3.png" alt="1">
+					</header>
+					<main>Наличие контроля филамента</main>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/4.png" alt="1">
+					</header>
+					<main>Наличие дисплея</main>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/5.png" alt="1">
+					</header>
+					<main>Тип камеры печати</main>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_m grid-6_xs">
+				<div class="about-trigger">
+					<header>
+						<img src="/img/triggers/6.png" alt="1">
+					</header>
+					<main>Метод калибровки</main>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </section>
 

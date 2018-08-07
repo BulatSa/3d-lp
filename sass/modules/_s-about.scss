@@ -11,3 +11,49 @@
 		}
 	}
 }
+
+.about-triggers{
+	margin-top: $pad-l;
+}
+
+
+.about-trigger{
+	border: 1px solid #b7b7b7;
+	border-radius: 20px;
+	padding: 10px 20px 15px 20px;
+	@include res(xl){
+		padding: 10px 15px 15px 15px;
+	}
+	@include res(m){
+		height: auto;
+		margin-bottom: $pad-s;
+	}
+
+	header{
+		position: relative;
+		height: 120px;
+		margin-bottom: $pad-xxs;
+		@include res(l){
+			height: 60px;
+		}
+
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+			max-width: 100%;
+			max-height: 100%;
+			@include res(l){
+				//transform: scale(0.5);
+			}
+		}
+	}
+
+	main{
+		font-size: 12px;
+		min-height: 2.8em;
+	}
+}
