@@ -132,7 +132,12 @@
 			</div>
 
 		</div>
+	</div>
+</section>
 
+
+<section class="s-about-triggers">
+	<div class="container">
 		<div class="row about-triggers">
 			<div class="grid-2 grid-4_m grid-6_xs">
 				<div class="about-trigger">
@@ -183,7 +188,6 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 </section>
 

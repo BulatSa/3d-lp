@@ -12,6 +12,12 @@
 	}
 }
 
+
+.s-about-triggers{
+	@extend %sec-paddings-bottom;
+}
+
+
 .about-triggers{
 	margin-top: $pad-l;
 }
@@ -53,6 +59,7 @@
 	}
 
 	main{
+		text-align: center;
 		font-size: 12px;
 		min-height: 2.8em;
 	}
